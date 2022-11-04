@@ -178,4 +178,15 @@
     html{
         font-size: 50%;
     }
+    img{
+        flex: 1;
+        object-fit: contain;
+
+        scale: 1.4;
+    }
+    .image-container{
+        overflow: hidden;
+        border-radius: 1.2rem 1.2rem 0rem 0rem ;
+        
+    }
   }
