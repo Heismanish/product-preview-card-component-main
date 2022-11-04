@@ -9,10 +9,11 @@
   }
 
   body{
-    margin: 10rem auto;
-    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
-   
+
+    overflow: hidden;
 
     display:flex;
     justify-content: center;
@@ -37,6 +38,16 @@
     flex-direction: column;
     gap: 0.8rem;
     padding: 2.4rem;
+  }
+
+  .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    overflow: hidden;
+    border-radius: 1.2rem 0 0 1.2rem;
   }
 
   img{
@@ -116,16 +127,7 @@
     background-color:#1a4031 ;
     cursor: pointer;
   }
-  .image-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-    overflow: hidden;
-    border-radius: 1.2rem 0 0 1.2rem;
-    
-  }
+ 
 
   @media (max-width:720px){
     html{
